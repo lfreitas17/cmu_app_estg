@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".signIn"></activity>
+        <activity android:name=".signIn" />
+        <activity android:name=".ContactList"></activity>
     </application>
 
 </manifest>
