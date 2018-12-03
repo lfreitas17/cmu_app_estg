@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText Password;
     private TextView Info;
     private Button Login;
+    private Button SignIn;
     private int counter = 0;
 
     @Override
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Password = findViewById(R.id.etPassword);
         Info = findViewById(R.id.tvInfo);
         Login = findViewById(R.id.loginButton);
+        SignIn = findViewById(R.id.signInButton);
 
         Info.setText("Nr of incorrect attempts: 0");
 
@@ -33,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 validate(Name.getText().toString(), Password.getText().toString());
+            }
+        });
+
+        SignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, signIn.class);
+                startActivity(intent);
             }
         });
     }
