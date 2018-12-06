@@ -34,6 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvRotas"
         app:layout_constraintVertical_bias="0.151" />
 
+    //este botão pode(e deve) ser apagado e integrado na recycler view das rotas
     <Button
         android:id="@+id/nRotaButton"
         android:layout_width="119dp"

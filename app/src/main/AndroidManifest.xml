@@ -19,7 +19,15 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".signIn" />
         <activity android:name=".ContactList" />
-        <activity android:name=".RotasActivity"></activity>
+        <activity android:name=".RotasActivity" />
+        <activity android:name=".EntregasActivity" />
+        <activity android:name=".NewEntregaActivity" />
+        <activity android:name=".NewEncomendaActivity" />
+        <activity android:name=".ContaActivity" />
+        <activity android:name=".AddClienteActivity" />
+        <activity android:name=".addProdutoActivity" />
+        <activity android:name=".RmvClienteActivity" />
+        <activity android:name=".RmvProdutoActivity"></activity>
     </application>
 
 </manifest>
