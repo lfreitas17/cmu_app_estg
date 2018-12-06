@@ -4,60 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".RotasActivity">
 
     <TextView
-        android:id="@+id/tvSecond"
+        android:id="@+id/tvRotas"
         android:layout_width="wrap_content"
         android:layout_height="52dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Login completed"
+        android:text="Rotas"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <Button
-        android:id="@+id/entregasButton"
+        android:id="@+id/mRotasButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Gerir entregas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSecond"
-        app:layout_constraintVertical_bias="0.143" />
-
-    <Button
-        android:id="@+id/rotaButton"
-        android:layout_width="133dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Gerir rotas"
+        android:text="Minhas Rotas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/entregasButton"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintTop_toBottomOf="@+id/tvRotas"
+        app:layout_constraintVertical_bias="0.151" />
 
     <Button
-        android:id="@+id/contaButton"
-        android:layout_width="132dp"
+        android:id="@+id/nRotaButton"
+        android:layout_width="119dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Gerir conta"
+        android:text="Nova Rota"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rotaButton"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintTop_toBottomOf="@+id/mRotasButton"
+        app:layout_constraintVertical_bias="0.117" />
 </android.support.constraint.ConstraintLayout>

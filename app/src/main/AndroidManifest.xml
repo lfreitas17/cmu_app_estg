@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".signIn" />
-        <activity android:name=".ContactList"></activity>
+        <activity android:name=".ContactList" />
+        <activity android:name=".RotasActivity"></activity>
     </application>
 
 </manifest>

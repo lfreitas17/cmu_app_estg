@@ -8,19 +8,19 @@ import android.widget.Button;
 
 public class SecondActivity extends AppCompatActivity {
 
-    private Button Contact;
+    private Button Rotas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Contact = findViewById(R.id.contactListButton);
+        Rotas = findViewById(R.id.rotaButton);
 
-        Contact.setOnClickListener(new View.OnClickListener() {
+        Rotas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SecondActivity.this, ContactActivity.class);
+                Intent intent = new Intent(SecondActivity.this, RotasActivity.class);
                 startActivity(intent);
             }
         });
